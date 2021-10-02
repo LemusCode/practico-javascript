@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras geometricas</title>
+  </head>
+  <body>
+    <h1>Figuras geometricas</h1>
+
+    <section>
+      <h2>Area y perimetro del cuadrado</h2>
+      <form action="">
+        <label for="InputCuadrado">Cuanto mide cada lado del cuadrado?</label>
+        <input id="InputCuadrado" type="number" />
+        <button type="button" onclick="calcularPerimetroCuadrado()">
+          Perimetro
+        </button>
+        <button type="button" onclick="calcularAreaCuadrado()">Area</button>
+      </form>
+    </section>
+    <section>
+      <h2>Area y perimtero del triangulo</h2>
+      <form action="">
+        <input type="number" id="Lado1" placeholder="Lado 1" />
+        <input type="number" id="Lado2" placeholder="Lado 2" />
+        <input type="number" id="Base" placeholder="Base" />
+        <input type="number" id="Altura" placeholder="Altura" />
+        <button type="button" onclick="calcularAreaTriangulo()">Area</button>
+        <button type="button" onclick="calcularPerimetroTriagulo()">
+          Perimetro
+        </button>
+      </form>
+    </section>
+
+    <script src="figuras.js"></script>
+  </body>
+</html>
